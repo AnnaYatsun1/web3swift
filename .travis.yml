@@ -1,5 +1,5 @@
 language: swift
-osx_image: xcode14.5
+osx_image: xcode12.5
 cache: bundler
 xcode_project: web3swift.xcworkspace
 xcode_scheme: web3swift-iOS
