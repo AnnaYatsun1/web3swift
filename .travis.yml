@@ -1,9 +1,9 @@
 
 jobs:
   build:
-
+    language: swift
     runs-on: macOS-latest
-
+  
     steps:
     - uses: actions/checkout@v1
     - name: Force Xcode 11
