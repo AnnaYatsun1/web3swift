@@ -10,6 +10,6 @@ xcode_destination: platform=iOS Simulator, OS=14.5, name=iPhone X
 #before_script:
 #  - carthage bootstrap --platform iOS --no-use-binaries --cache-builds
 script:
-  - xcodebuild -scheme web3swift -project web3swift.xcodeproj -sdk platform=iOS Simulator, OS=14.5, name=iPhone X build test
+  - xcodebuild -scheme web3swift -project web3swift.xcodeproj -destination platform=iOS Simulator, OS=14.5, name=iPhone X build test
 after_success:
   - bash <(curl -s https://codecov.io/bash)
