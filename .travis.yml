@@ -1,15 +1,14 @@
-language: swift
-osx_image: xcode12.5
-cache: bundler
-xcode_project: web3swift.xcworkspace
-xcode_scheme: web3swift-iOS
-xcode_destination: platform=iOS Simulator, OS=14.5, name=iPhone X
-#before_install:
-#  - brew install carthage || true
-#  - brew outdated carthage || brew upgrade carthage
-#before_script:
-#  - carthage bootstrap --platform iOS --no-use-binaries --cache-builds
-script:
-  - xcodebuild -scheme web3swift -project web3swift.xcodeproj -sdk iphonesimulator build test
-after_success:
-  - bash <(curl -s https://codecov.io/bash)
+
+jobs:
+  build:
+
+    runs-on: macOS-latest
+
+    steps:
+    - uses: actions/checkout@v1
+    - name: Force Xcode 12.5
+      run: sudo xcode-select -switch /Users/annayatsun/Downloads/Xcode.app 
+    - name: Run tests
+      run: xcodebuild clean test -project "web3swift.xcworkspace" -scheme "web3swift-iOS" -destination "platform=iOS Simulator,name=iPhone 11 Pro Max,OS=latest"
+    - name: Build App
+      run: xcodebuild -project "web3swift.xcworkspace" -scheme "web3swift-iOS" -destination "generic/platform=iOS" -configuration Release build CODE_SIGNING_ALLOWED=NO
