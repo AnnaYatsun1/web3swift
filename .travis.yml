@@ -4,10 +4,6 @@ cache: bundler
 xcode_project: web3swift.xcworkspace
 xcode_scheme: web3swift-iOS
 xcode_destination: platform=iOS Simulator, OS=14.4, name=iPhone 12
-before_install:
-  - export IOS_SIMULATOR_UDID=`instruments -s devices | grep "iPhone 12 (14.4" | awk -F '[ ]' '{print $4}' | awk -F '[\[]' '{print $2}' | sed 's/.$//'`
-  - echo $IOS_SIMULATOR_UDID
-  - open -a "simulator" --args -CurrentDeviceUDID $IOS_SIMULATOR_UDID
 #before_install:
 #  - brew install carthage || true
 #  - brew outdated carthage || brew upgrade carthage
