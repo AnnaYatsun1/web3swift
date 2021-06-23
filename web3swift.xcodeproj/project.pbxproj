@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -192,6 +192,24 @@
 		E2EDC5EA241EDE3600410EA6 /* BrowserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2EDC5E9241EDE3600410EA6 /* BrowserViewController.swift */; };
 		E2EDC5EC241EE18700410EA6 /* wk.bridge.min.js in Resources */ = {isa = PBXBuildFile; fileRef = E2EDC5EB241EE18700410EA6 /* wk.bridge.min.js */; };
 		E2EDC5EE241EE1E600410EA6 /* Bridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2EDC5ED241EE1E600410EA6 /* Bridge.swift */; };
+		F576B0FF2683565300A8263C /* PromiseKit.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = F576B0F92683565200A8263C /* PromiseKit.xcframework */; };
+		F576B1002683565300A8263C /* PromiseKit.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = F576B0F92683565200A8263C /* PromiseKit.xcframework */; };
+		F576B1012683565300A8263C /* PromiseKit.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = F576B0F92683565200A8263C /* PromiseKit.xcframework */; };
+		F576B1022683565300A8263C /* BigInt.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = F576B0FA2683565200A8263C /* BigInt.xcframework */; };
+		F576B1032683565300A8263C /* BigInt.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = F576B0FA2683565200A8263C /* BigInt.xcframework */; };
+		F576B1042683565300A8263C /* BigInt.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = F576B0FA2683565200A8263C /* BigInt.xcframework */; };
+		F576B1052683565300A8263C /* SipHash.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = F576B0FB2683565200A8263C /* SipHash.xcframework */; };
+		F576B1062683565300A8263C /* SipHash.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = F576B0FB2683565200A8263C /* SipHash.xcframework */; };
+		F576B1072683565300A8263C /* SipHash.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = F576B0FB2683565200A8263C /* SipHash.xcframework */; };
+		F576B1082683565300A8263C /* tvOS in Resources */ = {isa = PBXBuildFile; fileRef = F576B0FC2683565200A8263C /* tvOS */; };
+		F576B1092683565300A8263C /* tvOS in Resources */ = {isa = PBXBuildFile; fileRef = F576B0FC2683565200A8263C /* tvOS */; };
+		F576B10A2683565300A8263C /* tvOS in Resources */ = {isa = PBXBuildFile; fileRef = F576B0FC2683565200A8263C /* tvOS */; };
+		F576B10B2683565300A8263C /* CryptoSwift.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = F576B0FD2683565200A8263C /* CryptoSwift.xcframework */; };
+		F576B10C2683565300A8263C /* CryptoSwift.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = F576B0FD2683565200A8263C /* CryptoSwift.xcframework */; };
+		F576B10D2683565300A8263C /* CryptoSwift.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = F576B0FD2683565200A8263C /* CryptoSwift.xcframework */; };
+		F576B10E2683565300A8263C /* Starscream.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = F576B0FE2683565200A8263C /* Starscream.xcframework */; };
+		F576B10F2683565300A8263C /* Starscream.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = F576B0FE2683565200A8263C /* Starscream.xcframework */; };
+		F576B1102683565300A8263C /* Starscream.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = F576B0FE2683565200A8263C /* Starscream.xcframework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -396,6 +414,12 @@
 		E2EDC5E9241EDE3600410EA6 /* BrowserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowserViewController.swift; sourceTree = "<group>"; };
 		E2EDC5EB241EE18700410EA6 /* wk.bridge.min.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = wk.bridge.min.js; sourceTree = "<group>"; };
 		E2EDC5ED241EE1E600410EA6 /* Bridge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bridge.swift; sourceTree = "<group>"; };
+		F576B0F92683565200A8263C /* PromiseKit.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = PromiseKit.xcframework; path = Carthage/Build/PromiseKit.xcframework; sourceTree = "<group>"; };
+		F576B0FA2683565200A8263C /* BigInt.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = BigInt.xcframework; path = Carthage/Build/BigInt.xcframework; sourceTree = "<group>"; };
+		F576B0FB2683565200A8263C /* SipHash.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = SipHash.xcframework; path = Carthage/Build/SipHash.xcframework; sourceTree = "<group>"; };
+		F576B0FC2683565200A8263C /* tvOS */ = {isa = PBXFileReference; lastKnownFileType = folder; name = tvOS; path = Carthage/Build/tvOS; sourceTree = "<group>"; };
+		F576B0FD2683565200A8263C /* CryptoSwift.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = CryptoSwift.xcframework; path = Carthage/Build/CryptoSwift.xcframework; sourceTree = "<group>"; };
+		F576B0FE2683565200A8263C /* Starscream.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = Starscream.xcframework; path = Carthage/Build/Starscream.xcframework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -403,6 +427,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F576B1022683565300A8263C /* BigInt.xcframework in Frameworks */,
+				F576B0FF2683565300A8263C /* PromiseKit.xcframework in Frameworks */,
+				F576B10B2683565300A8263C /* CryptoSwift.xcframework in Frameworks */,
+				F576B1052683565300A8263C /* SipHash.xcframework in Frameworks */,
+				F576B10E2683565300A8263C /* Starscream.xcframework in Frameworks */,
 				13C3392821B6C68900F33F5E /* secp256k1.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -411,6 +440,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F576B1032683565300A8263C /* BigInt.xcframework in Frameworks */,
+				F576B1002683565300A8263C /* PromiseKit.xcframework in Frameworks */,
+				F576B10C2683565300A8263C /* CryptoSwift.xcframework in Frameworks */,
+				F576B1062683565300A8263C /* SipHash.xcframework in Frameworks */,
+				F576B10F2683565300A8263C /* Starscream.xcframework in Frameworks */,
 				4E28AF5725258CE20065EE44 /* web3swift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -419,6 +453,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F576B10D2683565300A8263C /* CryptoSwift.xcframework in Frameworks */,
+				F576B1042683565300A8263C /* BigInt.xcframework in Frameworks */,
+				F576B1072683565300A8263C /* SipHash.xcframework in Frameworks */,
+				F576B1012683565300A8263C /* PromiseKit.xcframework in Frameworks */,
+				F576B1102683565300A8263C /* Starscream.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -561,6 +600,12 @@
 		13C3392721B6C68900F33F5E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				F576B0FA2683565200A8263C /* BigInt.xcframework */,
+				F576B0FD2683565200A8263C /* CryptoSwift.xcframework */,
+				F576B0F92683565200A8263C /* PromiseKit.xcframework */,
+				F576B0FB2683565200A8263C /* SipHash.xcframework */,
+				F576B0FE2683565200A8263C /* Starscream.xcframework */,
+				F576B0FC2683565200A8263C /* tvOS */,
 				13A8D5BD21B9296B00469740 /* CoreImage.framework */,
 			);
 			name = Frameworks;
@@ -1126,6 +1171,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F576B1082683565300A8263C /* tvOS in Resources */,
 				E2B76710241ED479007EBFE3 /* browser.js in Resources */,
 				E2EDC5EC241EE18700410EA6 /* wk.bridge.min.js in Resources */,
 				E22A911F241ED71A00EC1021 /* browser.min.js in Resources */,
@@ -1136,6 +1182,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F576B1092683565300A8263C /* tvOS in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1143,6 +1190,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F576B10A2683565300A8263C /* tvOS in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

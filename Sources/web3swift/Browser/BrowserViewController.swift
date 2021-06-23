@@ -8,7 +8,7 @@
 
 import WebKit
 
-open class BrowserViewController: UIViewController {
+class BrowserViewController: UIViewController {
     
     public enum Method: String {
         case getAccounts
